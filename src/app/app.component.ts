@@ -20,7 +20,7 @@ export class AppComponent {
   salvar(form: NgForm) {
     console.log(form);
 
-    form.reset({ primeiroNome: 'Sebastião', profissao: '' });
+    form.reset({ primeiroNome: 'PRIMEIRO-NOME', profissao: '' });
   }
 
 }
